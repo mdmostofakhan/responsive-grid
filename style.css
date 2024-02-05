@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    /* background-color: aliceblue; */
+}
+
+.header{
+    background-color: #ff7e51;
+    padding: 1px 5px;
+    text-align: center;
+    color: white;
+   
+}
+
+.navi-menu{
+    background-color: #39a2ac;
+    padding: 1px 5px;
+}
+
+.navi-menu a{
+   color: white;
+   text-decoration: none;
+   padding: 10px;
+   font-size: 20px;
+   display: block;
+}
+
+.main{
+    background-color: aqua;
+    padding: 1px 5px;
+}
+
+
+.aside{
+    background-color: #39a2ac;
+    padding: 1px 5px;
+    text-align: center;
+}
+
+
+.footers{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding:  20px;
+    font-size: 0.8rem;
+}
