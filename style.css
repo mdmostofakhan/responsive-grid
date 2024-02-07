@@ -42,5 +42,28 @@
     text-align: center;
     color: white;
     padding:  20px;
-    font-size: 0.8rem;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    
+    [class*="col-"]{
+        width: 100%;
+    }
+
+    .navi-menu a{
+       background-color: blue;
+       text-align: center;
+       margin: 10px 0px;
+     }
+
+     .main{
+        background-color: brown;
+        text-align: center;
+        /* margin: 10px; */
+        margin: 10px 0px;
+        color: white;
+
+        
+    }
 }
